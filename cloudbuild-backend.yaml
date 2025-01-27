@@ -28,3 +28,7 @@ steps:
 timeout: 900s
 options:
  machineType: 'E2_HIGHCPU_8'
+serviceAccount: "wally-service-account@wally-registry-449109.iam.gserviceaccount.com"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
